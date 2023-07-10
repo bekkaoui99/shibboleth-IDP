@@ -69,21 +69,23 @@
     If you do not provide a SignatureValidation filter, then you have the
     responsibility to ensure that the contents on disk are trustworthy.
     -->
-    
-    <!--
-    <MetadataProvider id="LocalMetadata"  xsi:type="FilesystemMetadataProvider" metadataFile="PATH_TO_YOUR_METADATA"/>
-    -->
-<MetadataProvider id="SAMLtest"
+
+<!--  _____________  Configuration  _____________ -->
+<!-- Here you have to modidy the attributes so it links your IDP with your SP -->
+
+<MetadataProvider id="<!-- your id sp-->"
         xsi:type="FileBackedHTTPMetadataProvider"
         backingFile="%{idp.home}/metadata/sp-metadata.xml"
-        metadataURL="https://samltest.id/saml/sp">
+        metadataURL="https://<!-- your metadata URL --> ">
+
       <!-- You should always check the signature and freshness of remote
               metadata.  It's commented out until you get the basics working.
-           <MetadataFilter xsi:type="SignatureValidation" 
+           <MetadataFilter xsi:type="SignatureValidation"
                   certificateFile="%{idp.home}/credentials/signet.crt" />
            <MetadataFilter xsi:type="RequiredValidUntil" maxValidityInterval="P30D"/>
-        -->
+      -->
 </MetadataProvider>
+
     <!--
     Example CAS metadata source for managing CAS services using SAML metadata.
     -->
