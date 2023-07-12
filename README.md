@@ -14,13 +14,14 @@
 
 <ul>
   <li>config/shib-idp/conf/idp.properties</li>
-  <img src="">
+  <img src="./images/idp-properties.png">
   <li>config/shib-idp/conf/ldap.properties</li>
-  <img src="">
+  <img src="ldap-pro.png">
+   <img src="ldap-pro-2.png">  
   <li>config/shib-idp/conf/metadata-providers.xml</li>
-  <img src="">
-  <li>config/shib-idp/metadata/idp-metadata.xml</li>
-  <img src="">
+  <img src="metadata-providers.png">
   <li>config/shib-idp/metadata/sp-metadata.xml</li>
-  <img src="">
+  <img src="sp-metadata.png">
+  <li>messages/messages.properties</li>
+ <img src="template.png">
 </ul>
