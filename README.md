@@ -13,15 +13,15 @@
 <h3>list files that you have to modify </h3>
 
 <ul>
-  <li>config/shib-idp/conf/idp.properties</li>
+  <li><h1> config/shib-idp/conf/idp.properties </h1></li>
   <img src="./images/idp-properties.png">
-  <li>config/shib-idp/conf/ldap.properties</li>
+  <li> <h1>config/shib-idp/conf/ldap.properties </h1></li>
   <img src="./images/ldap-pro.png">
    <img src="./images/ldap-pro-2.png">  
-  <li>config/shib-idp/conf/metadata-providers.xml</li>
+  <li> <h1> config/shib-idp/conf/metadata-providers.xml </h1></li>
   <img src="./images/metadata-providers.png">
-  <li>config/shib-idp/metadata/sp-metadata.xml</li>
+  <li> <h1> config/shib-idp/metadata/sp-metadata.xml </h1></li>
   <img src="./images/sp-metadata.png">
-  <li>messages/messages.properties</li>
+  <li> <h1> messages/messages.properties </h1> </li>
  <img src="./images/template.png">
 </ul>
